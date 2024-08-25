@@ -1,0 +1,83 @@
+.sign-in-form-container {
+    max-width: 400px;
+    margin: auto;
+    height: 70vh;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+  }
+
+
+
+  .sign-title{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .sign-form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="email"].is-invalid,
+  input[type="password"].is-invalid {
+    border-color: #e74c3c;
+  }
+  
+  .invalid-feedback {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    .sign-in-form-container {
+      padding: 15px;
+      /* height: 70%; */
+    }
+  
+    .btn-primary {
+      width: 100%;
+    }
+  }

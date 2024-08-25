@@ -1,0 +1,81 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 30px 20px;
+    height: 130vh;
+    /* width: 100%; */
+    flex-direction: column;
+    gap: 15px;
+    background: linear-gradient(176deg, #6868688c, transparent);
+  }
+  #contact .container{
+    display: flex;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 100%;
+    background: #fff;
+    margin-top: 100px;
+  }
+  #contact .container>img{
+    height: auto;
+    flex: 4;
+  }
+  #contact .container .content{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    flex: 3;
+    padding: 30px;
+    justify-content: center;
+    /* margin-top: 50px; */
+  }
+  #contact .container .content h3{
+    text-align: start;
+  }
+  #contact .container .content div{
+    display: flex;
+    align-items: center;
+  }
+  #contact .container .content div p{
+    width: 120px;
+  }
+  #contact .container .content ul{
+    display: flex;
+    gap: 15px;
+    color: #181d24;
+  }
+  #contact .container .content ul a{
+    text-decoration: none;
+    color: #181d24;
+  }
+  #contact .container .content ul a svg{
+    font-size: 25px;
+  }
+  @media(max-width:1520px){
+    #contact .container{
+      min-width: 100%;
+      width: 100%;
+    }
+  }
+  @media(width<912px){
+    #contact{
+      height: 200vh;
+    }
+    #contact .container{
+      flex-direction: column;
+    }
+
+    #contact .container>img{
+      width: auto;
+    }
+  }
+
+  @media (width<360px) {
+    #contact{
+    height: 170vh;
+    padding-bottom: 0px;
+    }
+    
+  }
+  
